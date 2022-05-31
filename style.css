@@ -1,0 +1,99 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #2A214D;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0F0A25;
+    padding: 25px;
+}
+
+.header {
+    color: #C0B8E2;
+}
+
+.titulo {
+    font-weight: 800;
+    font-size: 48px;
+    padding: 15px;
+}
+
+.aviso {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    background-color: #7B71A1;
+    padding: 15px 35px 35px;
+}
+
+.visor {
+    height: 90px;
+    width: 240px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    align-items: center;
+}
+
+.visor__top {
+    margin: 15px;
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+}
+
+#conta {
+    height: 16px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    color: #0F0A25;
+}
+
+#M {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: #0F0A25;
+}
+
+#valorDigitado {
+    font-family: 'Raleway', sans-serif;
+    margin: 15px auto auto;
+    resize: none;
+    outline: none;
+    color: #0F0A25;
+}
+
+.teclas {
+    background-color: #C0B8E2;
+    width: 240px;
+    padding: 5px;
+    display: flex;
+    margin-top: 10px;
+    flex-flow: row wrap;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.btn {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    background-color: white;
+    padding: 3px;
+    margin: 5px;
+    width: 50px;
+    color: #0F0A25;
+    border-radius: 15px;
+}

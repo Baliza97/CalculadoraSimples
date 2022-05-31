@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+
+        <header>
+            <h1 class="header titulo">Calculadora de Expressões</h1>
+            <h2 class="header aviso">Lembre-se da preferência de operações!</h2>
+        </header>
+        <main class="container">
+            <form action="#">
+                <div class="visor">
+                    <div class="visor__top">
+                        <p id="conta"></p>
+                        <span id="M"></span>
+                    </div>
+                    <p id="valorDigitado"></p>
+                </div>
+                <div class="teclas">
+                    <button class="btn MSoma" type="submit">M+</button>
+                    <button class="btn MSub" type="submit">M-</button>
+                    <button class="btn MTotal" type="submit">Ms</button>
+                    <button class="btn CE" type="submit">CE</button>
+                    <button class="btn n7" type="submit">7</button>
+                    <button class="btn n8" type="submit">8</button>
+                    <button class="btn n9" type="submit">9</button>
+                    <button class="btn oDiv" type="submit">/</button>
+                    <button class="btn n4" type="submit">4</button>
+                    <button class="btn n5" type="submit">5</button>
+                    <button class="btn n6" type="submit">6</button>
+                    <button class="btn oMul" type="submit">X</button>
+                    <button class="btn n1" type="submit">1</button>
+                    <button class="btn n2" type="submit">2</button>
+                    <button class="btn n3" type="submit">3</button>
+                    <button class="btn oSub" type="submit">-</button>
+                    <button class="btn n0" type="submit">0</button>
+                    <button class="btn oVir" type="submit">.</button>
+                    <button class="btn oTot" type="submit">=</button>
+                    <button class="btn oSoma" type="submit">+</button>
+                </div>
+            </form>
+            <h3 class="aviso" id="erro"></h3>
+        </main>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
